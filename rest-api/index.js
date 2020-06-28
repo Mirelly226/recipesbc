@@ -6,7 +6,6 @@ const categoryRouter= require("./routers/categoryRouter");
 const recipeRouter= require("./routers/recipeRouter");
 mongoose.connect("mongodb+srv://admin:12345@recipes.crkqq.azure.mongodb.net/recipes?retryWrites=true&w=majority");
 mongoose.Promise= global.Promise;
-
 app.use(bodyParse.json());
 app.use(categoryRouter);
 app.use(recipeRouter);
