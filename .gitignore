@@ -102,3 +102,16 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+#aplicacion movil
+RecipesBC/node_modules/**/*
+RecipesBC/expo/*
+RecipesBC/npm-debug.*
+RecipesBC/*.jks
+RecipesBC/*.p8
+RecipesBC/*.p12
+RecipesBC/*.key
+RecipesBC/*.mobileprovision
+RecipesBC/*.orig.*
+RecipesBC/web-build/
